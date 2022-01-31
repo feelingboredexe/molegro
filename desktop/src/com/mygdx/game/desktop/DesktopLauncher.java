@@ -8,8 +8,8 @@ public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
 		config.title = "Molegro";
-		config.height = 1280; // resolution
-		config.width = 960;
+		config.height = 960; // resolution
+		config.width = 1280;
 		config.fullscreen = false; // no fullscreen yet
 
 		new LwjglApplication(new molegro(), config);
